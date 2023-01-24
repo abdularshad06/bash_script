@@ -42,6 +42,6 @@ echo "My Name is ${1}, and my age is ${2}"
 
 echo $#
 
-echo $@
+echo $@  # This is word seperated
 
-echo $*
+echo $*  # This is complete String
