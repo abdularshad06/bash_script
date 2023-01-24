@@ -10,7 +10,6 @@
 # name=${1}
 # age=${2}
 # echo "My Name is ${name}, and my age is ${age}"
-
 # =================================================
 # echo $1
 # echo $2
@@ -39,3 +38,10 @@ echo ${10}
 echo ${11}
 echo ${12}
 echo ${13}
+echo "My Name is ${1}, and my age is ${2}"
+
+echo $#
+
+echo $@
+
+echo $*
