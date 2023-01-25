@@ -21,6 +21,7 @@ echo "Configuration Code3"
 
 function deployment {
 # Deployment Code.
+configuration
 echo "Deployment Code1"
 echo "Deployment Code2"
 echo "Deployment Code3"
@@ -31,4 +32,7 @@ echo "Deployment Code3"
 install
 configuration
 deployment
+
+#  functions can call any sequence.
+#  we can call any function into another function.
 
