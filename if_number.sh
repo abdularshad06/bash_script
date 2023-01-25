@@ -28,12 +28,12 @@ then
     echo "Number is Grater or Eq 4"
 fi
 
-if [ $number -le 4 ]
+if [[ $number -le 4 ]]
 then
     echo "Number is Less or Eq  4"
 fi
 
-if [ $number -ne 4 ]
+if [[ $number -ne 4 ]]
 then
     echo "Number is not eq 4"
 fi
