@@ -1,7 +1,8 @@
+tokenvar=${1}
 function token(){
   echo "$FUNCNAME" - STARTED
-  echo ${1}
-  #git remote set-url origin https://${1}@github.com/abdularshad06/bash_script.git
+  #echo "${tokenvar}"
+  echo "git remote set-url origin https://${tokenvar}@github.com/abdularshad06/bash_script.git"
   echo "$FUNCNAME" - END
 }
 
