@@ -1,7 +1,9 @@
 #!/bin/bash
 
-# Syntax :
+# bash code flow trace
+# function  --> buildin  --> path(commands)
 
+# Syntax :
 function install() { # this method is very correct method
 # Installation Code.
 echo "Installation Code1"
