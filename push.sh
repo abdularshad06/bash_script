@@ -1,5 +1,8 @@
 function token(){
-  git remote set-url origin https://${1}@github.com/abdularshad06/bash_script.git
+  echo "$FUNCNAME" - STARTED
+  echo ${1}
+  #git remote set-url origin https://${1}@github.com/abdularshad06/bash_script.git
+  echo "$FUNCNAME" - END
 }
 
 cd /home/admin/bash_script
