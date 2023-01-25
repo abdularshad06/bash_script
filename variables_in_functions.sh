@@ -1,6 +1,7 @@
 #!/bin/bash
 
-packageName="nginx"
+#packageName="nginx"
+readonly packageName="nginx"
 function install() { 
 local myname="arshad"
 echo "Installing ${1}"
