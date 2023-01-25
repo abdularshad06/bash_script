@@ -4,6 +4,7 @@ function token(){
     if git remote set-url origin https://${tokenvar}@github.com/abdularshad06/bash_script.git>/dev/null
     then
     echo -e "\033[0;32m Authentication Token set Successfully"
+    
     fi
   echo "${FUNCNAME}" - END
 }
