@@ -18,4 +18,15 @@ git commit -m "Add existing project files to Git"
 token
 git push -u -f origin main
 
+# =====================================
 # git config --list --show-origin
+
+# [admin@bash_script bash_script]$ git add .
+#error: insufficient permission for adding an object to repository database .git/objects
+#error: ping.sh: failed to insert into database
+#error: unable to index file 'ping.sh'
+#fatal: updating files failed
+
+# solution :
+# cd /home/admin/bash_script/.git/
+# chmod -R 777 objects/
