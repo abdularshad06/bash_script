@@ -52,7 +52,7 @@
 # ===============================================================
 
 # print all .png file_name in current working directory
-for variableName in $(ls *.png)
+for variableName in $(ls *.txt)
 do
     echo "${variableName}"
 done
