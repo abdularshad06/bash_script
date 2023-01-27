@@ -92,6 +92,21 @@
 
 # ===============================================================
 
+# read -p "Please Press y or n as Answer : " answer
+# case ${answer,,} in 
+#     [y]*)
+#         echo "You Enter Yes"
+#         ;;
+#     [n]*)
+#         echo "You Enter No"
+#         ;;
+#     *)
+#         echo "Invalid Answer"
+#         ;;
+# esac
+
+# ===============================================================
+
 read -p "Please Press y or n as Answer : " answer
 case ${answer,,} in 
     y | yes)
