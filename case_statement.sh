@@ -1,6 +1,6 @@
 #!/bin/bash
 
-action=${1}
+# action=${1}
 # start, stop, restart, reload
 # if [[ ${action} == "start" ]]
 # then
@@ -16,22 +16,91 @@ action=${1}
 #     echo "going to reload"
 # fi
 
+# ===============================================================
 
-case ${action} in 
-    start)
-        echo "going to start"
-        echo "action two"
+# action=${1}
+# case ${action} in 
+#     start | START)
+#         echo "going to start"
+#         echo "action two"
+#         ;;
+#     stop | STOP)
+#         echo "going to stop"
+#         ;;
+#     restart | RESTART)
+#         echo "going to restart"
+#         ;;
+#     reload | RELOAD)
+#         echo "going to reload"
+#         ;;
+#     *)
+#         echo "Please enter valid command line argument"
+#         ;;
+# esac
+
+# ===============================================================
+
+# action=${1,,}
+# case ${action} in 
+#     start)
+#         echo "going to start"
+#         echo "action two"
+#         ;;
+#     stop)
+#         echo "going to stop"
+#         ;;
+#     restart)
+#         echo "going to restart"
+#         ;;
+#     reload)
+#         echo "going to reload"
+#         ;;
+#     *)
+#         echo "Please enter valid command line argument"
+#         ;;
+# esac
+
+# ===============================================================
+
+# read -p "Please Press y or n as Answer : " answer
+# case ${answer,,} in 
+#     y)
+#         echo "You Enter Yes"
+#         ;;
+#     n)
+#         echo "You Enter No"
+#         ;;
+#     *)
+#         echo "Invalid Answer"
+#         ;;
+# esac
+
+# ===============================================================
+
+# read -p "Please Press y or n as Answer : " answer
+# case ${answer} in 
+#     [Yy] | [Yy][Ee][Ss])
+#         echo "You Enter Yes"
+#         ;;
+#     [Nn] | [Nn][Oo])
+#         echo "You Enter No"
+#         ;;
+#     *)
+#         echo "Invalid Answer"
+#         ;;
+# esac
+
+# ===============================================================
+
+read -p "Please Press y or n as Answer : " answer
+case ${answer,,} in 
+    y | yes)
+        echo "You Enter Yes"
         ;;
-    stop)
-        echo "going to stop"
-        ;;
-    restart)
-        echo "going to restart"
-        ;;
-    reload)
-        echo "going to reload"
+    n | no)
+        echo "You Enter No"
         ;;
     *)
-        echo "Please enter valid command line argument"
+        echo "Invalid Answer"
         ;;
 esac
