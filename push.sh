@@ -1,5 +1,5 @@
 #!/bin/bash
-set -ex 
+
 tokenvar=${1}
 function token(){
   echo "${FUNCNAME}" - STARTED
