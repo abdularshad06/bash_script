@@ -1,3 +1,5 @@
+#!/bin/bash
+set -ex 
 tokenvar=${1}
 function token(){
   echo "${FUNCNAME}" - STARTED
@@ -9,7 +11,10 @@ function token(){
   echo "${FUNCNAME}" - END
 }
 
-cd /home/admin/bash_script
+###### Script Starts from Here ######
+
+#cd /home/admin/bash_script
+#yum install -y git
 git init
 git add .
 git commit -m "Add existing project files to Git"
