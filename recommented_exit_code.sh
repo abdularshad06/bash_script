@@ -34,7 +34,8 @@ dns=8.8.8.8
 
 if [[ ${UID} != 0 ]]
 then
-    echo -e "${RED} User is not root Please run as root User"
+    echo -e "${RED} User is not root Please run as root User${NOCOLOR}"
+    exit 1
 fi
 
 if  ! grep -q ${dns} /etc/resolv.conf
