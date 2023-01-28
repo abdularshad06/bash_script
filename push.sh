@@ -14,7 +14,7 @@ function token(){
 ###### Script Starts from Here ######
 
 #cd /home/admin/bash_script
-#yum install -y git
+#yum install -y git dos2unix
 git init
 git add .
 git commit -m "Add existing project files to Git"
