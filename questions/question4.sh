@@ -16,9 +16,6 @@
     # Note: User should know the password for remote user.
 
 
-# Sample Execution / Output:
-
-# Test Case 1:
 
 function remote_host_info (){
 read -p "Please enter remote system ip address: " remote_ip
