@@ -16,7 +16,7 @@
     # Note: User should know the password for remote user.
 
 
-
+# function defination
 function remote_host_info (){
 read -p "Please enter remote system ip address: " remote_ip
 read -p "Please enter user name: " remote_user_name
@@ -51,9 +51,9 @@ done
 }
 
 
-
 #######################################################################
-# Script Start
+# Script Start from Here
+#######################################################################
 
 PS3="Select an option to continue: "
 select task in ssh scp
