@@ -24,13 +24,13 @@ function error_msg(){
 }
 
 read -p "Enter 1st numbers for addition : " a
-if [[ -z ${a} ]]
+if [ -z ${a} ]
 then
    error_msg
 fi
 
 read -p "Enter 2nd numbers for addition : " b
-if [[ -z ${b} ]]
+if [ -z ${b} ]
 then
    error_msg
 fi
@@ -41,5 +41,3 @@ sum="$a + $b"
 
 # sum of 2 initiger or decimal number.  Here << is standard input and < is for read operator as cat < file_name.txt
 echo "sum = $(bc <<< ${sum})"
-
-exit 0
