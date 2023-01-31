@@ -27,7 +27,7 @@ function src_dest() {
     read -p "Please enter Destination file Location : " destination_file
 }
 
-function ssh_options () {
+function scp_options () {
     local PS3="Please choose an option : "
 select scp_task in "local ==> remote" "remote ==> local"
 do
@@ -66,7 +66,7 @@ do
         ;;
     scp)
         remote_host_info
-        ssh_options
+        scp_options
         break;
         ;;
     *)
@@ -75,4 +75,3 @@ do
         ;;
     esac
 done
-
