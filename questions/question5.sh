@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# A5: Write a script for addition of two numbers for real numbers also
+
 # read -p "Enter two numbers for addition in single line as arguments : " a b
 
 # # Here sum is string variable of two intiger or decimal variable values

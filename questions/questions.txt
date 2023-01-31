@@ -1,0 +1,53 @@
+# A1: Write a script for printing all file related information in present working directory.
+# (e.g.: owner, permission & size etc
+
+# ==============================================================================================
+
+# A2: Read ‘n’ and generate a pattern given below
+
+# Pattern
+
+1
+1 2
+1 2 3
+1 2 3 4
+
+# ==============================================================================================
+
+# A3: Read ‘n’ and generate a pattern given below
+
+# Pattern
+
+1
+2 3
+4 5 6
+7 8 9 10
+
+# ==============================================================================================
+
+# A4: Write a script for scp & ssh by demonstrating remote login & file transfer functions
+
+# Requirements:
+
+    # Provide a menu to user to select ssh or scp
+    # Based on user selection ask for user name and ip-address.
+    # For scp ask user for direction of copy
+    #     remote to local
+    #     local to remote.
+    #     copy file to destination home directory with same source file name.
+    # Ask for source/destination file location. If no destination location is provided
+    # If user gives destination along with filename, keep that as destination filename.
+    # If user provides only destination location (no file name), keep as source file name
+    # Note: User should know the password for remote user.
+
+# ==============================================================================================
+
+# A5: Write a script for addition of two numbers for real numbers also
+
+# ==============================================================================================
+
+# A6: Write a script for arithmetic calculator using command line arguments
+
+# ==============================================================================================
+
+
