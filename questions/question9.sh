@@ -4,3 +4,5 @@
 
 filename=${1}
 sed -i '/^$/d' ${filename}
+
+# sed -n '/ /p' test.txt
