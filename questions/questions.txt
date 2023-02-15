@@ -58,7 +58,11 @@
 
 # ==============================================================================================
 
-A9: Write a script to delete empty lines from a file
+# A9: Write a script to delete empty lines from a file
+
+# ==============================================================================================
+
+# A10: Write a script to perform arithmetic operation on digits of a given number depending upon the operator
 
 # ==============================================================================================
 
